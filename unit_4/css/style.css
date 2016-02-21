@@ -1,0 +1,44 @@
+body {
+	text-align: center;
+	background-color: #b4b4c3;
+	font-family: Whitney, sans-serif;
+}
+
+hr {
+	width: 400px;
+	color: white;
+}
+
+h1{
+	color: white;
+	font-weight: lighter;
+	font-size: 44px;
+}
+
+h3{
+	color: white;
+	font-weight: lighter;
+	font-size: 22px;
+}
+
+p{
+	color: white;
+	font-weight: lighter;
+	font-size: 22px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	font-weight: lighter;
+	font-size: 20px;
+}
+
+#content {
+  margin-left: 600px;
+}
+
+#navbar {
+  float: left;
+  width: 600px;
+}
