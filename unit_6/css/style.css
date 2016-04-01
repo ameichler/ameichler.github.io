@@ -1,80 +1,92 @@
 header {
-	background-color: #FFED74;
-	border: 1px black solid;
-	padding: 20px;
+	text-align: center;
 }
 
 nav {
-	background-color: #E8C66A;
-	border: 1px black solid;
-	padding: 20px;
+	padding: 2%;
 }
 
 article {
-	background-color: #FFC675;
-	border: 1px black solid;
-	padding: 20px;
+	padding: 2%;
 }
 
 footer {
-	background-color: #FF957E;
-	border: 1px black solid;
-	padding: 20px;
+	padding: 2%;
 }
 
 div {
-	background-color: #FFE2B8;
-	border: 1px black solid;
-	padding: 20px;
+	width: 100%;
+	padding: 2%;
 }
 
 body {
 	text-align: ;
 	background-color: ;
 	font-family: Whitney, sans-serif;
+	font-size: 16px;
 }
 
 hr {
 	width: 1000px;
-	color: d5c49b;
+	color: #d5c49b;
 }
 
 h1 {
-	color: 879baf;
+	color: #879baf;
 	font-weight: normal;
-	font-size: 40px;
+	font-size: 2.5em;
 	text-align: center;
 }
 
 h2 {
-	color: 879baf;
+	color: #879baf;
 	font-weight: lighter;
-	font-size: 28px;
+	font-size: 2em;
 }
 
 h3 {
-	color: 879baf;
-	font-weight: ;
-	font-size: ;
+	color: #879baf;
+	font-weight: lighter;
+	font-size: 1.5em;
 }
 
 p {
-	color: 6f727b;
+	color: #6f727b;
 	font-weight: lighter;
-	font-size: 16px;
+	font-size: 1em;
+}
+
+ul{
+	color: #6f727b;
+	font-weight: lighter;
+	font-size: 1em;
 }
 
 a {
 	text-decoration: none;
-	color: d5c49b;
+	color: #d5c49b;
 	font-weight: lighter;
-	font-size: 20px;
+	font-size: 1.5em;
+}
+
+footer {
+	background-color: #879baf;
+	color: #fff;
 }
 
 #one {
-	background-color: #FFB7CF;
-	border: 1px black solid;
-	padding: 20px;
+	padding: 2%;
+	margin: 2%;
+}
+
+#two {
+	padding: 2%;
+	margin: 2%;
+}
+
+#three {
+	padding: 2%;
+	margin: 2%;
 }
 
 #image {
@@ -84,45 +96,26 @@ a {
 	width: 25%;
 }
 
-#about {
-	background-color: #E582A2;
-	border: 1px black solid;
-	padding: 20px;
-	float: right;
-	width: 65%;
-}
-
-#three {
-	background-color: #FFB7CF;
-	border: 1px black solid;
-	padding: 20px;
-}
 
 #left {
-	background-color: #E582A2;
-	border: 1px black solid;
-	padding: 20px;
+	padding: 2%;
 	float: left;
 	width: 25%;
-	margin: 10px;
+	margin: 2%;
 }
 
 #center {
-	background-color: #FF957E;
-	border: 1px black solid;
-	padding: 20px;
+	padding: 2%;
 	float: left;
 	width: 25%;
-	margin: 10px;
+	margin: 2%;
 }
 
 #right {
-	background-color: #E55B88;
-	border: 1px black solid;
-	padding: 20px;
-	float: right;
+	padding: 2%;
+	float: left;
 	width: 25%;
-	margin: 10px;
+	margin: 2%;
 }
 
 .clearfix:after {
@@ -132,4 +125,9 @@ a {
 	content: " ";
 	clear: both;
 	height: 0;
+}
+
+@media screen only and (min-width: 500px) {
+body {
+font-size: 12px;
 }
